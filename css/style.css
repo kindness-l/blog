@@ -1,0 +1,58 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+input::-webkit-input-placeholder {color: white !important;}
+input:-moz-placeholder {color: white !important;}
+input::-moz-placeholder {color: white !important; }
+input:-ms-input-placeholder {color: white !important;}
+/* -------------------------------------------- */
+/* ------------------Font---------------------- */
+@font-face {font-family: 'Droid Sans';font-style: normal;font-weight: 400;src: local('Droid Sans'), local('DroidSans'), url(../fonts/DroidSans.woff) format('woff');}
+@font-face {font-family: 'Droid Sans';font-style: normal;font-weight: 700;src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(../fonts/DroidSansBold.woff) format('woff');}
+@font-face {font-family: 'Roboto Slab';font-style: normal;font-weight: 300;src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(../fonts/RobotoSlabLight.woff) format('woff');}
+@font-face {font-family: 'Roboto Slab';font-style: normal;font-weight: 400;src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(../fonts/RobotoSlabRegular.woff) format('woff');}
+@font-face {font-family: 'Roboto Slab';font-style: normal;font-weight: 700;src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(../fonts/RobotoSlabBold.woff) format('woff');}
+html, body {width:100%; padding:0; margin:0;}
+body{background: url(../images/bg.jpg) no-repeat center top;background-attachment: fixed;}
+h1, h2, h3{font-size: 12px;font-family: 'Roboto Slab',sans-serif;font-weight: 400;}
+a{text-decoration: none;}
+header{width: 1200px;margin: 0 auto;margin-top: 20px;height: 36px;}
+header input{float: right;width:20%;height: 34px;text-indent:1rem;background: none;border: none;outline: none;border: 1px solid #fff;color: #fff;}
+.top{width: 1198px;margin: 0 auto;margin-top:10px;text-align: center;color: #fff;border:1px solid #fff;padding: 80px 0;font-size: 50px;font-family: 'Roboto Slab',sans-serif;margin-bottom: 10px;}
+.top h1{font-size: 50px;}
+nav{width: 1200px;margin: 0 auto;background:#E56281;height: 40px;line-height: 40px;}
+nav ul{width: 100%;height: 40px;line-height: 40px;}
+nav ul li {float: left;font-size: 16px; font-family: 'Roboto Slab';}
+nav ul li a{color: #fff;display: inline-block;padding:0 40px;}
+nav ul li a:hover{background: #fff;color: #323045;transition: all 0.4s linear;font-weight: bold;}
+.wrap{width: 1200px;margin: 10px auto 20px;display: block;overflow: hidden;}
+.article_ours{width: 70%;background: #fff;display: block;float: left;padding: 15px;}
+.article_list,.article_con {width: 100%;display: block;overflow: hidden;}
+.article_list{margin-bottom: 0px;border-top: 1px solid #ddd;height: auto;overflow: hidden;}
+.article_list:first-child{border-top: 0;}
+.about_us{width: 26.5%;float: right;height: 350px;background: #fff;}
+.article_ours img{float: left;padding: 4px;border: 1px solid #ddd;margin: 20px;height:auto;width: 40%;position: relative;}
+.article_ours p{padding-top: 20px; font-family: 'Roboto Slab';line-height: 30px;color: #999;}
+.line{width: 100%;height: 1px;background: #ddd;}
+.article_tit{font-family: 'Roboto Slab';text-align: center;padding: 20px 0;font-size: 24px;color: #555;}
+.article_tit:hover{transition: all 0.4s linear; color: #E56281;}
+.article_time{font-family: 'Roboto Slab';text-align: left;padding: 10px 0;padding-left: 20px;font-style: italic;}
+.article_time span{color: #E56281;}
+footer{background: #323045;opacity:0.8;color: #fff;text-align: center;padding-top: 100px;padding-bottom: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
